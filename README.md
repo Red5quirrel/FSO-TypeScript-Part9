@@ -1,1 +1,1 @@
-# FSO-TypeScript-Part9
+Full Stack Open - TypeScript
