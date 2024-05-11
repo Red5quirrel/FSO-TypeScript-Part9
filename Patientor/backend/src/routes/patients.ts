@@ -8,6 +8,16 @@ route.get("/", (_req, res) => {
   res.json(patientsServices.getNonSensitivePatientEntry());
 });
 
+route.get("/:id", (req, res) => {
+  const id = req.params.id;
+  const patient = patientsServices.getSinglePatient(id);
+  if (patient) {
+    res.json(patient);
+  } else {
+    res.status(404).end();
+  }
+});
+
 route.post("/", (req, res) => {
   try {
     const newPatient = toNewPatientEntry(req.body);
