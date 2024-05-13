@@ -6,3 +6,4 @@
 - The app should work without a backend, but make sure that the request made to `/api/ping` made on startup is successful before continuing.
 
   9.21: Patientor, step2
+  9.23: Patientor, step 4

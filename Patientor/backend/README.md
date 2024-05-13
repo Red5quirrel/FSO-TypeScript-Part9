@@ -6,3 +6,4 @@
 9.13: Patientor backend, step6
 
 9.20: Patientor, step1
+9.22: Patientor, step 3
